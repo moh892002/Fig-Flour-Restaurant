@@ -3,7 +3,7 @@ import port from "../assets/port.jpg";
 
 function OurStory() {
   return (
-    <div className="bg-[#3A2A1E]">
+    <div className="bg-[#3A2A1E]" id="our-story">
       <div className="ourStory container mx-auto ">
         <div className="flex justify-between gap-20 items-center h-[70vh]">
           <div className="image">
@@ -31,6 +31,7 @@ function OurStory() {
                 src={port}
                 alt="Founder Image"
                 className="founderImage w-16 h-16 rounded-full object-cover"
+                loading="lazy"
               />
               <div>
                 <h1 className="text-[#FBF2E4] font-semibold">Mohammed Bader</h1>

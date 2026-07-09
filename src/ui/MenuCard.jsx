@@ -5,6 +5,7 @@ function MenuCard({ image, name, description, price }) {
         src={image}
         alt={name}
         className="menu-card-image w-full h-48 object-cover rounded-2xl"
+        loading="lazy"
       />
       <div className="menu-card-content p-4 space-y-3">
         <div className="flex justify-between items-center">

@@ -1,13 +1,21 @@
-import ContactMap from "./Map";
+// import ContactMap from "./Map";
+
+import React, { Suspense } from "react";
+
+const ContactMap = React.lazy(() => import("./Map"));
 
 function Visit() {
   return (
     <div className="bg-[#F3E6D2] py-15 px-4">
       <div className="container mx-auto">
-        <div className="flex justify-around items-center gap-8" id="visit">
-          <div className="w-156">
+        <div className="flex justify-around items-center gap-8" id="visit-us">
+          <Suspense
+            fallback={
+              <div className="h-125 animate-pulse rounded-xl bg-gray-200" />
+            }
+          >
             <ContactMap />
-          </div>
+          </Suspense>
           <div className="space-y-8 w-156">
             <h1 className="text-[#3A2A1E] text-[34px] font-semibold">
               Visit us

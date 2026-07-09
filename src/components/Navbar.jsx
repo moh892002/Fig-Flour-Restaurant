@@ -13,7 +13,7 @@ function Navbar() {
         </ul>
       </nav>
       <a
-        href="#reservation"
+        href="#reservations"
         className="book-btn bg-[#C1613B] text-white px-4 py-2 rounded-3xl hover:bg-[#c1613be9] transition duration-300 "
       >
         Book a Table

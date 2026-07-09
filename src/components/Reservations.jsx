@@ -4,7 +4,7 @@ function Reservations() {
   return (
     <div className="bg-[#FBF2E4]">
       <div className="container mx-auto mt-24 mb-12 px-4">
-        <div className="reservations space-y-15" id="reservation">
+        <div className="reservations space-y-15" id="reservations">
           <div className="text-center space-y-5">
             <h3 className="text-[#9C4A2B] font-semibold">Reservations</h3>
             <h1 className="text-[#3A2A1E] text-2xl font-semibold">

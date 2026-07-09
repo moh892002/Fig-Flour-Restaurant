@@ -75,7 +75,7 @@ function Menu() {
         </div>
         <div className="mt-10 text-center">
           <a
-            href=""
+            href="#"
             className="text-[#C1613B]  hover:underline"
           >
             View Full Menu <span className="">&rarr;</span>

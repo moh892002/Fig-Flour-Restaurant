@@ -22,7 +22,7 @@ function Hero() {
         </div>
         <div className="hero-btns space-x-1">
           <a
-            href="#reservation"
+            href="#reservations"
             className="reserve-btn bg-[#C1613B] text-white px-6 py-3 inline-block rounded-3xl hover:bg-[#c1613be9] transition duration-300 "
           >
             Reserve a Table
@@ -35,7 +35,7 @@ function Hero() {
           </a>
         </div>
         <div className="">
-          <div className="grid grid-cols-3 divide-x divide-gray-400 space-x-16">
+          <div className="grid grid-cols-3 divide-x space-x-16 divide-gray-400">
             <div>
               <div className="flex items-center gap-1">
                 <span className="text-3xl font-semibold">4.9</span>
@@ -61,6 +61,7 @@ function Hero() {
           src={heroImage}
           className="rounded h-125 w-225   object-cover"
           alt="Hero Image"
+          loading="lazy"
         />
       </div>
     </section>
