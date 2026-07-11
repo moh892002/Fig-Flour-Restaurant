@@ -19,7 +19,7 @@ const Footer = React.lazy(() => import("./components/Footer"));
 
 function App() {
   return (
-    <div className="App bg-[#FBF2E4] min-h-screen">
+    <div className="App bg-[#FBF2E4] min-h-screen min-w-screen overflow-x-hidden">
       <Suspense fallback={<div>Loading...</div>}>
         <Navbar />
         <Hero />

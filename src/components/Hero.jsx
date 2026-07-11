@@ -59,7 +59,7 @@ function Hero() {
       <div className="hero-image">
         <img
           src={heroImage}
-          className="rounded h-125 w-225   object-cover"
+          className="rounded h-125 w-225 object-cover"
           alt="Hero Image"
           loading="lazy"
         />
