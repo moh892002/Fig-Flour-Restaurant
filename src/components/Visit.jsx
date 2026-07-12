@@ -12,10 +12,10 @@ function Visit() {
           className="flex flex-col lg:flex-row justify-around items-center gap-8 lg:gap-8"
           id="visit-us"
         >
-          <div className="w-full lg:w-auto">
+          <div className="w-full lg:w-1/2">
             <VisibilityLoader
               fallback={
-                <div className="h-64 md:h-125 animate-pulse rounded-xl bg-gray-200 w-full" />
+                <div className="h-64 md:h-[31.25rem] animate-pulse rounded-xl bg-gray-200 w-full" />
               }
             >
               <ContactMap />

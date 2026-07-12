@@ -55,7 +55,7 @@ function Hero() {
       <div className="hero-image w-full lg:w-auto">
         <img
           src={heroData.image}
-          className="rounded h-64 sm:h-80 md:h-96 lg:h-125 w-full lg:w-225 object-cover"
+          className="rounded h-64 sm:h-80 md:h-96 lg:h-[31.25rem] w-full lg:w-[56.25rem] object-cover"
           alt="Hero Image"
           loading="lazy"
         />
