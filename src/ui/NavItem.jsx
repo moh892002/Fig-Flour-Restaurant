@@ -3,7 +3,7 @@ function NavItem({ name }) {
     <li>
       <a
         href={"#" + name.toLowerCase().replace(/\s+/g, "-")}
-        className="text-[18px] font-light text-[#3A2A1E] hover:text-[#C1613B] transition duration-300 "
+        className="text-[18px] font-light text-dark hover:text-brand-accent transition duration-300 "
       >
         {name}
       </a>

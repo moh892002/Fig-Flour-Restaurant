@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const Alert = ({ type, message }) => {
   const [isVisible, setIsVisible] = useState(true);
