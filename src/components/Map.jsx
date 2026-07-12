@@ -20,7 +20,7 @@ export default function ContactMap() {
     <MapContainer
       center={position}
       zoom={15}
-      className="h-125 w-full rounded-xl"
+      className="h-64 md:h-125 w-full rounded-xl"
     >
       <TileLayer
         attribution="&copy; OpenStreetMap contributors"
